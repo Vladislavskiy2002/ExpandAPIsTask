@@ -1,6 +1,6 @@
 package com.vladislavskiy.ExpandAPIsTask.controller;
 import com.vladislavskiy.ExpandAPIsTask.model.UserInfo;
-import com.vladislavskiy.ExpandAPIsTask.service.UserInfoService;
+import com.vladislavskiy.ExpandAPIsTask.service.impl.UserInfoService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 

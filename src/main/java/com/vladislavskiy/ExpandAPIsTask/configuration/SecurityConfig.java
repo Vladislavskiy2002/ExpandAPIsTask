@@ -1,7 +1,7 @@
 package com.vladislavskiy.ExpandAPIsTask.configuration;
 
 import com.vladislavskiy.ExpandAPIsTask.filter.JwtAuthFilter;
-import com.vladislavskiy.ExpandAPIsTask.service.UserInfoService;
+import com.vladislavskiy.ExpandAPIsTask.service.impl.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

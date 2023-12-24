@@ -1,7 +1,7 @@
 package com.vladislavskiy.ExpandAPIsTask.filter;
 
-import com.vladislavskiy.ExpandAPIsTask.service.JwtService;
-import com.vladislavskiy.ExpandAPIsTask.service.UserInfoService;
+import com.vladislavskiy.ExpandAPIsTask.service.impl.JwtService;
+import com.vladislavskiy.ExpandAPIsTask.service.impl.UserInfoService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
