@@ -1,4 +1,4 @@
-package com.vladislavskiy.ExpandAPIsTask;
+package com.vladislavskiy.ExpandAPIsTask.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
