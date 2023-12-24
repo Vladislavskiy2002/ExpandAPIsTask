@@ -1,4 +1,4 @@
-package com.vladislavskiy.ExpandAPIsTask;
+package com.vladislavskiy.ExpandAPIsTask.dto;
 
 import com.vladislavskiy.ExpandAPIsTask.model.Product;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.vladislavskiy.ExpandAPIsTask;
+package com.vladislavskiy.ExpandAPIsTask.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
