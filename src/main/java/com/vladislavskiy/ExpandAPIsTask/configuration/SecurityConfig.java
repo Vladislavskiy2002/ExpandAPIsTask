@@ -38,7 +38,10 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http.csrf().disable().authorizeHttpRequests()
                 .requestMatchers("/products/add").authenticated()
-                .requestMatchers("/auth/isUserExist/**","/auth/addNewUser", "/token/**").permitAll().and().authorizeHttpRequests().requestMatchers("/auth/user/**").authenticated().and().authorizeHttpRequests().requestMatchers("/auth/admin/**").authenticated().and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().authenticationProvider(authenticationProvider()).addFilterBefore(authFilter, UsernamePasswordAuthenticationFilter.class).build();
+                .requestMatchers("/auth/isUserExist/**","/auth/addNewUser", "/token/**").permitAll()
+                .and().sessionManagement()
+                .sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().authenticationProvider(authenticationProvider())
+                .addFilterBefore(authFilter, UsernamePasswordAuthenticationFilter.class).build();
     }
 
     // Password Encoding
