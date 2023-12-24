@@ -1,6 +1,6 @@
-package com.vladislavskiy.ExpandAPIsTask;
+package com.vladislavskiy.ExpandAPIsTask.service;
 
-import com.vladislavskiy.ExpandAPIsTask.UserInfo;
+import com.vladislavskiy.ExpandAPIsTask.model.UserInfo;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
