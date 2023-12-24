@@ -9,5 +9,4 @@ public class ExpandApIsTaskApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ExpandApIsTaskApplication.class, args);
 	}
-
 }
