@@ -1,4 +1,4 @@
-package com.vladislavskiy.ExpandAPIsTask.service;
+package com.vladislavskiy.ExpandAPIsTask.service.impl;
 
 import com.vladislavskiy.ExpandAPIsTask.model.UserInfo;
 import com.vladislavskiy.ExpandAPIsTask.repository.UserInfoRepository;
