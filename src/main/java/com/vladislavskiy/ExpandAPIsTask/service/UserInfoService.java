@@ -1,7 +1,6 @@
 package com.vladislavskiy.ExpandAPIsTask.service;
 
-import com.vladislavskiy.ExpandAPIsTask.UserInfo;
-import com.vladislavskiy.ExpandAPIsTask.UserInfoDetails;
+import com.vladislavskiy.ExpandAPIsTask.model.UserInfo;
 import com.vladislavskiy.ExpandAPIsTask.repository.UserInfoRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.vladislavskiy.ExpandAPIsTask.controller;
 
-import com.vladislavskiy.ExpandAPIsTask.AuthRequest;
+import com.vladislavskiy.ExpandAPIsTask.dto.AuthRequest;
 import com.vladislavskiy.ExpandAPIsTask.service.JwtService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

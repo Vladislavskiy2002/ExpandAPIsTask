@@ -1,17 +1,13 @@
 package com.vladislavskiy.ExpandAPIsTask;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vladislavskiy.ExpandAPIsTask.controller.ProductController;
+import com.vladislavskiy.ExpandAPIsTask.dto.ProductRequest;
 import com.vladislavskiy.ExpandAPIsTask.model.Product;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;

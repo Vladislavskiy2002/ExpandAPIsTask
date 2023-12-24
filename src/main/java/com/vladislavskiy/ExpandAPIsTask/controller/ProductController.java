@@ -1,6 +1,6 @@
 package com.vladislavskiy.ExpandAPIsTask.controller;
 
-import com.vladislavskiy.ExpandAPIsTask.ProductRequest;
+import com.vladislavskiy.ExpandAPIsTask.dto.ProductRequest;
 import com.vladislavskiy.ExpandAPIsTask.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
